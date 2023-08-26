@@ -36,7 +36,7 @@ console.log((temp*9/5)+32)
   return (
     <>
     
-    <div className='py-16 border-8 border-indigo-500 rounded-lg mx-80 mt-52 bg-gradient-to-r from-violet-500 to-fuchsia-500'>
+    <div className='py-16 border-8 border-indigo-500 rounded-lg shadow-lg mx-80 mt-52 bg-gradient-to-r from-violet-500 to-fuchsia-500'>
     <h1 className='mb-8 text-6xl font-bold text-center text-slate-700'>Temperature Converter</h1>
     <div className='text-center'>
   <input value={temp} onChange={tempChange} type='number' placeholder='Enter the Temp.' className='mr-2 border-2 border-indigo-500 rounded-md shadow-sm'></input>
